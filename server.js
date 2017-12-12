@@ -48,7 +48,7 @@ http.createServer((request, response) => {
     response.end();
   }
 
-}).listen(8081);
+}).listen(8081, '127.0.0.1');
 
 // Console will print the message
 console.log('Server running at http://127.0.0.1:8081/');
